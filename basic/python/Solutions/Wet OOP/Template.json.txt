@@ -40,6 +40,10 @@
 			{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}],
 		"lineColor": "#AABBCC",
 		"fillColor": "#FFFFFF",
+		"translationX": 0,
+		"translationY": 0,
+		"rotationDeg": 0,
+		"scale": 1
 	},
 	{
 		
@@ -48,6 +52,10 @@
 			{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
 		"lineColor": "#AABBCC",
 		"fillColor": "#FFFFFF",
+		"translationX": 0,
+		"translationY": 0,
+		"rotationDeg": 0,
+		"scale": 1
 	},
 	{
 		
@@ -55,13 +63,64 @@
 		"coords": [
 			{"x": 50, "y": 40}, {"x": 50, "y": 30}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
 		"lineColor": "#AABBCC",
-		"fillColor": "#FFFFFF"
+		"fillColor": "#FFFFFF",
+		"translationX": -30,
+		"translationY": -20,
+		"rotationDeg": 0,
+		"scale": 1
 	},
 },
 
 {
 	"shapeType": "Street",
 	"containedShapes": [
+	{
+		"shapeType": "House",
+		"containedShapes: [
+		{
+		
+			"shapeType": "Triangle",
+			"coords": [
+				{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}],
+			"lineColor": "#AABBCC",
+			"fillColor": "#FFFFFF",
+			"translationX": 0,
+			"translationY": 0,
+			"rotationDeg": 0,
+			"scale": 1
+		},
+		{
+		
+			"shapeType": "Rectangle",
+			"coords": [
+				{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
+			"lineColor": "#AABBCC",
+			"fillColor": "#FFFFFF",
+			"translationX": 0,
+			"translationY": 0,
+			"rotationDeg": 0,
+			"scale": 1
+		},
+		{
+		
+			"shapeType": "Rectangle",
+			"coords": [
+				{"x": 50, "y": 40}, {"x": 50, "y": 30}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
+			"lineColor": "#AABBCC",
+			"fillColor": "#FFFFFF",
+			"translationX": -30,
+			"translationY": -20,
+			"rotationDeg": 0,
+			"scale": 1
+		},
+
+		"translationX": 0,
+		"translationY": 0,
+		"rotationDeg": 0,
+		"scale": 1
+		
+	}
+	
 	{
 		"otherJsonPath": "C:\Users\jony0\Downloads\CV_training\CV_training\basic\python\Solutions\Wet OOP\Other_House.json",
 		"translationX": 10,
