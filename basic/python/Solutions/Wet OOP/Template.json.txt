@@ -1,18 +1,12 @@
 {
 	"shapeType": "Point",
-	"x": 5,
-	"y": 17,
-	"translationX": 0,
-	"translationY": 0,
+	"coords":
+	[{"x": 5, "y": 17}]
 }
 {
 	"shapeType": "Line",
 	"coords": [{"x": 20, "y": 30}, {"x": 10, "y": 20}],
 	"lineColor": "#000000",
-	"translationX": 0,
-	"translationY": 0,
-	"rotationDeg": 0,
-	"scale": 1
 {
 	"shapeType": "Circle",
 	"coords": [
@@ -20,10 +14,6 @@
 	"radius": 10,
 	"lineColor": "#AABBCC",
 	"fillColor": "#FFFFFF",
-	"translationX": 0,
-	"translationY": 0,
-	"rotationDeg": 0,
-	"scale": 1
 	
 },
 {
@@ -32,11 +22,6 @@
 		{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}],
 	"lineColor": "#AABBCC",
 	"fillColor": "#FFFFFF",
-	"translationX": 0,
-	"translationY": 0,
-	"rotationDeg": 0,
-	"scale": 1
-	
 },
 {
 	"shapeType": "Rectangle",
@@ -44,11 +29,6 @@
 		{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
 	"lineColor": "#AABBCC",
 	"fillColor": "#FFFFFF",
-	"translationX": 0,
-	"translationY": 0,
-	"rotationDeg": 0,
-	"scale": 1
-	
 },
 {
 	"shapeType": "House",
@@ -60,10 +40,6 @@
 			{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}],
 		"lineColor": "#AABBCC",
 		"fillColor": "#FFFFFF",
-		"translationX": 0,
-		"translationY": 0,
-		"rotationDeg": 0,
-		"scale": 1
 	},
 	{
 		
@@ -72,10 +48,6 @@
 			{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
 		"lineColor": "#AABBCC",
 		"fillColor": "#FFFFFF",
-		"translationX": 0,
-		"translationY": 0,
-		"rotationDeg": 0,
-		"scale": 1
 	},
 	{
 		
@@ -84,10 +56,6 @@
 			{"x": 50, "y": 40}, {"x": 50, "y": 30}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
 		"lineColor": "#AABBCC",
 		"fillColor": "#FFFFFF"
-		"translationX": 30,
-		"translationY": 0,
-		"rotationDeg": 0,
-		"scale": 1
 	},
 },
 
