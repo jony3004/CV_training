@@ -1,0 +1,130 @@
+{
+	"shapeType": "Point",
+	"x": 5,
+	"y": 17,
+	"translationX": 0,
+	"translationY": 0,
+}
+{
+	"shapeType": "Line",
+	"coords": [{"x": 20, "y": 30}, {"x": 10, "y": 20}],
+	"lineColor": "#000000",
+	"translationX": 0,
+	"translationY": 0,
+	"rotationDeg": 0,
+	"scale": 1
+{
+	"shapeType": "Circle",
+	"coords": [
+		{"x": 20, "y": 30}],
+	"radius": 10,
+	"lineColor": "#AABBCC",
+	"fillColor": "#FFFFFF",
+	"translationX": 0,
+	"translationY": 0,
+	"rotationDeg": 0,
+	"scale": 1
+	
+},
+{
+	"shapeType": "Triangle",
+	"coords": [
+		{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}],
+	"lineColor": "#AABBCC",
+	"fillColor": "#FFFFFF",
+	"translationX": 0,
+	"translationY": 0,
+	"rotationDeg": 0,
+	"scale": 1
+	
+},
+{
+	"shapeType": "Rectangle",
+	"coords": [
+		{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
+	"lineColor": "#AABBCC",
+	"fillColor": "#FFFFFF",
+	"translationX": 0,
+	"translationY": 0,
+	"rotationDeg": 0,
+	"scale": 1
+	
+},
+{
+	"shapeType": "House",
+	"containedShapes: [
+	{
+		
+		"shapeType": "Triangle",
+		"coords": [
+			{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}],
+		"lineColor": "#AABBCC",
+		"fillColor": "#FFFFFF",
+		"translationX": 0,
+		"translationY": 0,
+		"rotationDeg": 0,
+		"scale": 1
+	},
+	{
+		
+		"shapeType": "Rectangle",
+		"coords": [
+			{"x": 20, "y": 30}, {"x": 10, "y": 20}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
+		"lineColor": "#AABBCC",
+		"fillColor": "#FFFFFF",
+		"translationX": 0,
+		"translationY": 0,
+		"rotationDeg": 0,
+		"scale": 1
+	},
+	{
+		
+		"shapeType": "Rectangle",
+		"coords": [
+			{"x": 50, "y": 40}, {"x": 50, "y": 30}, {"x": 0, "y": 20}, {"x": 20, "y": 40}],
+		"lineColor": "#AABBCC",
+		"fillColor": "#FFFFFF"
+		"translationX": 30,
+		"translationY": 0,
+		"rotationDeg": 0,
+		"scale": 1
+	},
+},
+
+{
+	"shapeType": "Street",
+	"containedShapes": [
+	{
+		"otherJsonPath": "C:\Users\jony0\Downloads\CV_training\CV_training\basic\python\Solutions\Wet OOP\Other_House.json",
+		"translationX": 10,
+		"translationY": 10,
+		"rotationDeg": 0,
+		"scale": 2
+	},
+	
+		"otherJsonPath": "C:\Users\jony0\Downloads\CV_training\CV_training\basic\python\Solutions\Wet OOP\Other_House.json",
+		"translationX": 100,
+		"translationY": 10,
+		"rotationDeg": 0,
+		"scale": "2"
+	},
+	{
+		"otherJsonPath": "C:\Users\jony0\Downloads\CV_training\CV_training\basic\python\Solutions\Wet OOP\Other_House.json",
+		"translationX": -100,
+		"translationY": 10,
+		"rotationDeg": 180,
+		"scale": 2
+	}]
+}
+
+
+
+
+
+		
+
+
+
+
+
+		
