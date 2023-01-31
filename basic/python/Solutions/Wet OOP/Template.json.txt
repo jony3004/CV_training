@@ -4,7 +4,7 @@
 	[{"x": 5, "y": 17}]
 }
 {
-	"shapeType": "Line",
+	"shapeType": "Triangle",
 	"coords": [{"x": 20, "y": 30}, {"x": 10, "y": 20}],
 	"lineColor": "#000000",
 {
@@ -32,7 +32,7 @@
 },
 {
 	"shapeType": "House",
-	"containedShapes: [
+	"containedShapes": [
 	{
 		
 		"shapeType": "Triangle",
@@ -76,7 +76,7 @@
 	"containedShapes": [
 	{
 		"shapeType": "House",
-		"containedShapes: [
+		"containedShapes": [
 		{
 		
 			"shapeType": "Triangle",
