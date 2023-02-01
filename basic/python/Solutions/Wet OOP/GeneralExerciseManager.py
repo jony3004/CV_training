@@ -20,7 +20,14 @@ class GeneralExerciseManager:
 
 
 def main():
-    exercise_manager = GeneralExerciseManager("Json Files/City with two streets.json", np.ones((500, 500, 3), np.uint8) * 255)
+    exercise_manager = GeneralExerciseManager("Json Files/City with two streets.json",
+                                              np.ones((500, 500, 3), np.uint8) * 255)
+    #exercise_manager = GeneralExerciseManager("Json Files/Street with house blown away.json", np.ones((500, 500, 3), np.uint8) * 255)
+    #exercise_manager = GeneralExerciseManager("Json Files/Circle.json", np.ones((500, 500, 3), np.uint8) * 255)
+    #exercise_manager = GeneralExerciseManager("Json Files/House.json", np.ones((500, 500, 3), np.uint8) * 255)
+    #exercise_manager = GeneralExerciseManager("Json Files/Line.json", np.ones((500, 500, 3), np.uint8) * 255)
+    #exercise_manager = GeneralExerciseManager("Json Files/Point.json", np.ones((500, 500, 3), np.uint8) * 255)
+
     exercise_manager.shape_parse()
     exercise_manager.shape_to_image()
 
