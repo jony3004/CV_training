@@ -43,6 +43,7 @@ class ParserFromJSONFile:
         # We deal with both a json file that uses another JSON path, and one where
         # shapes are explicitly defined.
 
+        # CR: shape_factory is not used in this function
         shape_factory = ShapeFactory()
         if "otherJsonPath" in JSON_dict:
             shape = self.parse_path(JSON_dict["otherJsonPath"])
@@ -56,6 +57,9 @@ class ParserFromJSONFile:
     def create_composite_shape(self, JSON_dict):
         # We deal with the creation of a composite shape, that includes the creation
         # of its contained shapes (basic or composite).
+
+        # CR: If a composite shape with the same name and content appears twice in the JSON file, we parse it twice?
+        # can you think of a way to avoid that?
         shape_factory = ShapeFactory()
         shape = shape_factory.create_composite_shape()
         for JSON_contained_dict in JSON_dict["containedShapes"]:

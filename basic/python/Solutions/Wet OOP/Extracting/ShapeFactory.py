@@ -15,6 +15,9 @@ class ShapeFactory:
 
     def create_shape(self, shape_name, coordinates, line_color, fill_color, radius):
         coordinates = self.parse_coords(coordinates)
+
+        # CR: try to think of a way to avoid conditions. How can you use shape_name to access the right Shape class
+        # with the same name?
         if shape_name == "Point":
             return Shapes.Point.Point(coordinates, line_color, fill_color)
         if shape_name == "Line":
