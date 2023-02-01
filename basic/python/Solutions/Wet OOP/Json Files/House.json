@@ -1,0 +1,86 @@
+{
+	"shapeType": "House",
+	"containedShapes": [
+		{
+			"shapeType": "Rectangle",
+			"coords": [
+				{
+					"x": 30,
+					"y": 500
+				},
+				{
+					"x": 10,
+					"y": 20
+				},
+				{
+					"x": 100,
+					"y": 350
+				},
+				{
+					"x": 20,
+					"y": 40
+				}
+			],
+			"lineColor": "#AABBCC",
+			"fillColor": "#FFFFFF",
+			"translationX": 0,
+			"translationY": 0,
+			"rotationDeg": 0,
+			"scale": 1
+		},
+		{
+			"shapeType": "Rectangle",
+			"coords": [
+				{
+					"x": 55,
+					"y": 500
+				},
+				{
+					"x": 10,
+					"y": 20
+				},
+				{
+					"x": 75,
+					"y": 450
+				},
+				{
+					"x": 20,
+					"y": 40
+				}
+			],
+			"lineColor": "#AABBCC",
+			"fillColor": "#FFFFFF",
+			"translationX": 0,
+			"translationY": 0,
+			"rotationDeg": 0,
+			"scale": 1
+		},
+		{
+			"shapeType": "Triangle",
+			"coords": [
+				{
+					"x": 30,
+					"y": 350
+				},
+				{
+					"x": 65,
+					"y": 300
+				},
+				{
+					"x": 100,
+					"y": 350
+				}
+			],
+			"lineColor": "#AABBCC",
+			"fillColor": "#FFFFFF",
+			"translationX": 0,
+			"translationY": 0,
+			"rotationDeg": 0,
+			"scale": 1
+		}
+	],
+	"translationX": 10,
+	"translationY": 10,
+	"rotationDeg": 0,
+	"scale": 2
+}

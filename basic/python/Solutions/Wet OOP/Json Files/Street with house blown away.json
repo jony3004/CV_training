@@ -1,0 +1,165 @@
+{
+    "shapeType": "Street",
+    "containedShapes": [
+      {
+        "shapeType": "House",
+	    "containedShapes": [
+        {
+            "shapeType": "Rectangle",
+            "coords": [
+                {"x": 30, "y": 500}, {"x": 30, "y": 350}, {"x": 100, "y": 350}, {"x": 100, "y": 500}],
+            "lineColor": "#FF0000",
+            "fillColor": "#0000FF",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+        },
+            {
+                "shapeType": "Rectangle",
+            "coords": [
+                {"x": 55, "y": 500}, {"x": 55, "y": 450}, {"x": 75, "y": 450}, {"x": 75, "y": 500}],
+            "lineColor": "#FF0000",
+            "fillColor": "#CCCCCC",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+            },
+        {
+                "shapeType": "Triangle",
+            "coords": [
+                {"x": 30, "y": 350}, {"x": 65, "y": 300}, {"x": 100, "y": 350}],
+            "lineColor": "#FF0000",
+            "fillColor": "#FF0000",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+            }]
+      },
+      {
+        "shapeType": "House",
+	    "containedShapes": [
+        {
+            "shapeType": "Rectangle",
+            "coords": [
+                {"x": 30, "y": 500}, {"x": 30, "y": 350}, {"x": 100, "y": 350}, {"x": 100, "y": 500}],
+            "lineColor": "#FF0000",
+            "fillColor": "#0000FF",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+        },
+            {
+                "shapeType": "Rectangle",
+            "coords": [
+                {"x": 55, "y": 500}, {"x":55, "y": 450}, {"x": 75, "y": 450}, {"x": 75, "y": 500}],
+            "lineColor": "#FF0000",
+            "fillColor": "#CCCCCC",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+            },
+        {
+                "shapeType": "Triangle",
+            "coords": [
+                {"x": 30, "y": 350}, {"x": 65, "y": 300}, {"x": 100, "y": 350}],
+            "lineColor": "#FF0000",
+            "fillColor": "#FF0000",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+            }],
+        "translationX": 100,
+	    "translationY": 0,
+	    "rotationDeg": 0,
+	    "scale": 1
+      },
+      {
+        "shapeType": "House",
+	    "containedShapes": [
+        {
+            "shapeType": "Rectangle",
+            "coords": [
+                {"x": 30, "y": 500}, {"x": 30, "y": 350}, {"x": 100, "y": 350}, {"x": 100, "y": 500}],
+            "lineColor": "#FF0000",
+            "fillColor": "#0000FF",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+        },
+            {
+                "shapeType": "Rectangle",
+            "coords": [
+                {"x": 55, "y": 500}, {"x":55, "y": 450}, {"x": 75, "y": 450}, {"x": 75, "y": 500}],
+            "lineColor": "#FF0000",
+            "fillColor": "#CCCCCC",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+            },
+        {
+                "shapeType": "Triangle",
+            "coords": [
+                {"x": 30, "y": 350}, {"x": 65, "y": 300}, {"x": 100, "y": 350}],
+            "lineColor": "#FF0000",
+            "fillColor": "#FF0000",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+            }],
+        "translationX": 200,
+	    "translationY": 0,
+	    "rotationDeg": 0,
+	    "scale": 1
+      },
+      {
+        "shapeType": "House",
+	    "containedShapes": [
+        {
+            "shapeType": "Rectangle",
+            "coords": [
+                {"x": 30, "y": 500}, {"x": 30, "y": 350}, {"x": 100, "y": 350}, {"x": 100, "y": 500}],
+            "lineColor": "#FF0000",
+            "fillColor": "#0000FF",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+        },
+            {
+                "shapeType": "Rectangle",
+            "coords": [
+                {"x": 55, "y": 500}, {"x":55, "y": 450}, {"x": 75, "y": 450}, {"x": 75, "y": 500}],
+            "lineColor": "#FF0000",
+            "fillColor": "#CCCCCC",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+            },
+        {
+                "shapeType": "Triangle",
+            "coords": [
+                {"x": 30, "y": 350}, {"x": 65, "y": 300}, {"x": 100, "y": 350}],
+            "lineColor": "#FF0000",
+            "fillColor": "#FF0000",
+            "translationX": 0,
+            "translationY": 0,
+            "rotationDeg": 0,
+            "scale": 1
+            }],
+        "translationX": 300,
+	    "translationY": 0,
+	    "rotationDeg": -13,
+	    "scale": 1
+      }
+    ]
+}

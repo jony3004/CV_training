@@ -27,15 +27,16 @@ def rotate_point(point, angle, center_point=(0, 0)):
 def scale_coordinates_helper(coordinates, scale_factor):
     scaled_shape_points = []
     for point in coordinates:
-        scaled_point = rotate_point(point, scale_factor, (0, 0))
+        scaled_point = scale_point(point, scale_factor, (0, 0))
         scaled_shape_points.append(scaled_point)
     return scaled_shape_points
 
 
 def scale_point(point, scale: float, focal_point):
+    # Scaling a shape around the focal point.
     return (point[0] - focal_point[0]) * scale + focal_point[0], \
            (point[1] - focal_point[1]) * scale + focal_point[1]
 
 
 def hex_color_to_BGR(color: str):
-    return int("0x" + color[5:6]), int("0x" + color[3:4]), int("0x" + color[1:2])
+    return int("0x" + color[5:7], 16), int("0x" + color[3:5], 16), int("0x" + color[1:3], 16)

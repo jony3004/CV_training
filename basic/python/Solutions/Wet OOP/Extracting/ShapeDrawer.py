@@ -10,8 +10,11 @@ class ShapeDrawer:
 
     def draw_shape(self):
         self._image = self._shape.draw_shape(self._image)
+        return self._image
 
-    def save_image(self) -> None:
-        plt.imshow(self._image)
-        plt.show()
+    def save_image(self, image, JSON_path):
+        plt.imshow(image)
+        plt.title(JSON_path)
         plt.savefig("output.jpg")
+        plt.show()
+

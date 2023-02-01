@@ -1,0 +1,15 @@
+{
+        "shapeType": "Point",
+        "coords": [
+            {
+                "x": 100,
+                "y": 300
+            }
+        ],
+        "lineColor": "#AABBCC",
+        "fillColor": "#0000FF",
+        "translationX": 0,
+        "translationY": 0,
+        "rotationDeg": 0,
+        "scale": 1
+		}

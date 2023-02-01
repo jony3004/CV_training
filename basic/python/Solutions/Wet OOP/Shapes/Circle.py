@@ -1,12 +1,14 @@
 import cv2
-import BasicShape
+from Shapes.BasicShape import BasicShape
 class Circle(BasicShape):
     def __init__(self, coordinates, line_color, fill_color, radius):
-        super.__init__(coordinates, line_color, fill_color)
+        super().__init__(coordinates, line_color, fill_color)
         self._radius = radius
 
     def draw_shape(self, image):
-        return cv2.circle(image, self._coordinates[0],
-                          self._radius, self._line_color, -1)
+        circle = cv2.circle(image, (int(self._coordinates[0][0]), (int(self._coordinates[0][1]))),
+                          self._radius, self._fill_color, -1)
+        return circle
+
 
 

@@ -1,0 +1,16 @@
+{
+        "shapeType": "Circle",
+        "coords": [
+            {
+                "x": 100,
+                "y": 300
+            }
+        ],
+        "lineColor": "#AABBCC",
+        "fillColor": "#0000FF",
+        "radius": 50,
+        "translationX": 0,
+        "translationY": 0,
+        "rotationDeg": 0,
+        "scale": 1
+		}
