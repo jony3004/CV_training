@@ -1,3 +1,4 @@
+import copy
 import json
 import GeneralExerciseManager
 from Extracting.ShapeFactory import ShapeFactory
@@ -7,7 +8,7 @@ import Shapes.CompositeShape
 
 class ParserFromJSONFile:
     def __init__(self):
-        pass
+        self._created_shapes = dict()
 
     def parse_path(self, JSON_path):
         '''
@@ -16,13 +17,17 @@ class ParserFromJSONFile:
                 :param JSON_path: String, path to our json file.
                 :return: shape: Shapes.GeneralShape
         '''
-        with open(JSON_path) as json_file:
-            json_dict = json.load(json_file)
-        shape = self.parse_shape(json_dict)
-        shape = self.parse_extra_details(shape, json_dict)
-        if "containedShapes" in json_dict:
-            shape = self.extra_details_helper_for_composite_shapes(json_dict, shape)
-        return shape
+        if JSON_path in self._created_shapes:
+            return self._created_shapes[JSON_path]
+        else:
+            with open(JSON_path) as json_file:
+                json_dict = json.load(json_file)
+            shape = self.parse_shape(json_dict)
+            shape = self.parse_extra_details(shape, json_dict)
+            if "containedShapes" in json_dict:
+                shape = self.extra_details_helper_for_composite_shapes(json_dict, shape)
+            self._created_shapes[JSON_path] = copy.deepcopy(shape)
+            return shape
 
     def extra_details_helper_for_composite_shapes(self, json_dict, shape):
         # Helper function for the case of a composite shape that handles the
@@ -43,8 +48,6 @@ class ParserFromJSONFile:
         # We deal with both a json file that uses another JSON path, and one where
         # shapes are explicitly defined.
 
-        # CR: shape_factory is not used in this function
-        shape_factory = ShapeFactory()
         if "otherJsonPath" in JSON_dict:
             shape = self.parse_path(JSON_dict["otherJsonPath"])
             return shape
@@ -58,8 +61,6 @@ class ParserFromJSONFile:
         # We deal with the creation of a composite shape, that includes the creation
         # of its contained shapes (basic or composite).
 
-        # CR: If a composite shape with the same name and content appears twice in the JSON file, we parse it twice?
-        # can you think of a way to avoid that?
         shape_factory = ShapeFactory()
         shape = shape_factory.create_composite_shape()
         for JSON_contained_dict in JSON_dict["containedShapes"]:
