@@ -15,7 +15,7 @@
 
  - After analyzing your model, "Marvel-Sabres" offered an upgrade to the model: instead of a classified model, the company will provide a model that ranks the biopsies by their chances to represent a cancer patient (in the coming year). A higher ranking biopsy represents a higher likelihood that it is taken from a person who gets cancer in the coming year.
     - Why would such a model be good? Market it to a customer.
-    - Draw a ROC  curve without using scikit-Learn  or any other structured function of python that does so.
+    - Draw a ROC curve without using scikit-Learn  or any other structured function of python that does so.
     - Calculate the AUC. Is the model good in terms of this criterion? Give business meaning to the client.
     - Turn the rating model into a classification model using the ROC curve. Explain your answer well.
     - Again calculate confusion matrix.
